@@ -4,7 +4,6 @@ import outputs from "amplify_outputs.json";
 import { Amplify } from 'aws-amplify';
 
 Amplify.configure(outputs);
-
 export default function App() {
   return (
     <Authenticator>
